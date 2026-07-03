@@ -1,0 +1,15 @@
+a = prompt("What is your Age?");
+a = Number.parseInt(a)
+if(a > 0 && a<13){
+    alert("You Are a Kid")
+}
+else if (a > 12 && a < 22) {
+    alert("You are a Teen-Aged ")
+}
+else if (a > 21 && a < 60) {
+    alert("You are a Aged-Person")
+} else if (a> 59) {
+    alert("You are an Adult-Person")
+} else {
+    alert("Invalid Age")
+} 
