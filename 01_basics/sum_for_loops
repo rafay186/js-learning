@@ -1,0 +1,7 @@
+let sum = 0;
+n = prompt("Enter the Number")
+n = Number.parseInt(n);
+for(i = 1; i<=n; i++){
+    sum= sum + i;
+}
+console.log("The sum of first", n, "Number is", sum)
